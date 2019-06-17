@@ -1,0 +1,33 @@
+﻿@model Final.Models.productos
+
+@{ 
+    ViewBag.Title = Model.nombre;
+}
+<style>
+    body {
+        background-image: url("/img/hj.jpg");
+</style>
+<div class="text-center">
+    
+    <h1>Detalles de productos</h1>
+    </div>
+    <div>
+        @Model.nombre
+    </div>
+    <div>
+        @Model.detalle
+    </div>
+    <div>
+        @Model.precio
+    </div>
+    <div>
+        @Model.cantidad
+    </div>
+    <div class="text-center">
+        <div style="width:35%; margin-left: 32%">
+            <div style="align-self :center">
+
+                <a  asp-action="Inventario" asp-controller="Home">Inventario</a>
+            </div>
+        </div>
+    </div>

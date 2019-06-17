@@ -1,0 +1,38 @@
+﻿@model Final.Models.Cliente
+
+@{
+    ViewBag.Title = Model.Nombre;
+}
+<style>
+    body {
+        background-image: url("/img/hj.jpg");
+</style>
+<div class="text-center">
+
+    <h1>Detalles de Cliente</h1>
+</div>
+<div>
+    @Model.Nombre
+</div>
+<div>
+    @Model.Email
+</div>
+<div>
+    @Model.cedula
+</div>
+<div>
+    @Model.telefono
+</div>
+<div>
+    @Model.direccion
+</div>
+<div class="text-center">
+    <div style="width:35%; margin-left: 32%">
+        <div style="align-self :center">
+
+            <a  asp-action="Clientes" asp-controller="Home">Clientes</a>
+
+ 
+        </div>
+    </div>
+</div>

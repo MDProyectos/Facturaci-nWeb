@@ -1,0 +1,52 @@
+﻿@model Final.Models.productos
+
+@{
+    ViewBag.Title = "Crear Producto";
+}
+
+<style>
+    body {
+        background-image: url("/img/w.jpg");
+</style>
+
+<br /><br /><br /><br /><br />
+<div class="text-center">
+    <div style="width:35%; margin-left: 30%">
+
+
+        <h1>Crear producto</h1>
+
+        <form method="post">
+
+            <div>
+                <label asp-for="nombre"></label>
+                <input asp-for="nombre" />
+                <span asp-validation-for="nombre"></span>
+            </div>
+            <br />
+            <div>
+                <label asp-for="detalle"></label>
+                <input asp-for="detalle" />
+                <span asp-validation-for="detalle"></span>
+            </div>
+            <br />
+            <div>
+                <label asp-for="cantidad"></label>
+                <input asp-for="cantidad" />
+                <span asp-validation-for="cantidad"></span>
+            </div>
+            <br />
+            <div>
+                <label asp-for="precio"></label>
+                <input asp-for="precio" />
+                <span asp-validation-for="precio"></span>
+            </div>
+            <br />
+            <input type="submit" name="save" value="Crear" />
+        </form>
+
+    </div>
+</div>
+
+
+  

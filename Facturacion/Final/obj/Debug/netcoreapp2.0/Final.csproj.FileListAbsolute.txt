@@ -1,0 +1,12 @@
+C:\Users\Cliente\Source\Repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\Final.csprojAssemblyReference.cache
+C:\Users\Cliente\Source\Repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\Final.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\Source\Repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Cliente\Source\Repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\Final.AssemblyInfoInputs.cache
+C:\Users\Cliente\Source\Repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\Final.AssemblyInfo.cs
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\bin\Debug\netcoreapp2.0\Final.deps.json
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\bin\Debug\netcoreapp2.0\Final.runtimeconfig.json
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\bin\Debug\netcoreapp2.0\Final.runtimeconfig.dev.json
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\bin\Debug\netcoreapp2.0\Final.dll
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\bin\Debug\netcoreapp2.0\Final.pdb
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\Final.dll
+C:\Users\Cliente\source\repos\ProyectoFinal7\Final\Final\obj\Debug\netcoreapp2.0\Final.pdb

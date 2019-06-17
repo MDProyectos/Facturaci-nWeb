@@ -1,0 +1,40 @@
+﻿@model Final.Models.factura
+
+@{
+    ViewBag.Title = "Crear factura";
+}
+<h1>Nueva factura</h1>
+
+<form method="post">
+
+    <div>
+        <label asp-for="id"></label>
+        <input asp-for="id" />
+        <span asp-validation-for="id"></span>
+    </div>
+    <div>
+        <label asp-for="productoid"></label>
+        <input asp-for="productoid" />
+        <span asp-validation-for="productoid"></span>
+    </div>
+    <div>
+        <label asp-for="nombre"></label>
+        <input asp-for="nombre" />
+        <span asp-validation-for="nombre"></span>
+    </div>
+    <div>
+        <label asp-for="Fecha"></label>
+        <input asp-for="Fecha" />
+        <span asp-validation-for="Fecha"></span>
+    </div>
+    <div>
+        <label asp-for="total"></label>
+        <input asp-for="total" />
+        <span asp-validation-for="total"></span>
+    </div>
+
+    <input type="submit" name="save" value="Save" />
+    <input  name="imprimir" value="imprimir" />
+
+
+</form>

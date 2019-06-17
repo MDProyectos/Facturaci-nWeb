@@ -1,0 +1,182 @@
+﻿
+
+@{
+
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<br /><br />
+<div class="row">
+    <div class="col-md-12">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active"><img src="~/img/s1.jpg" alt="" width="100%" /></div>
+
+                <div class="item"><img src="~/img/s2.jpg" alt="" /></div>
+
+                <div class="item"><img src="~/img/s3.jpg" alt="" /></div>
+            </div>
+
+
+            <a href="#slider" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+
+            <a href="#slider" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div class="text-center">
+    <table align="center">
+        <h1>Bienvenidos a su sistema de facturacion</h1>
+
+        <p>Aui podra ver y manipular el inventario</p>
+
+        <p>Manejar clientes</p>
+
+        <p>Procesar ventas y facturar</p>
+
+    </table>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h1 class="text-center">Galeria</h1>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="Sala.html"> <img src="img/1.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Muebles</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="Sala.html"> <img src="img/2.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Lamparas</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="#"> <img src="img/12.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Estufas</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="#"> <img src="img/5.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Mesas</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="#"> <img src="img/6.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Licuadoras</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="#"> <img src="img/7.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Lamparas de techo</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-6 col-md-3">
+        <div class="thumbnail">
+            <a href="#"> <img src="img/8.jpg" alt="" /> </a>
+            <div class="caption">
+                <h3>Comedor</h3>
+                <p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Se a agregado al carrito')">Comprar</a>
+                    <a href="#" class="btn btn-primary">Detalles</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<div class="text-center">
+    <table align="center">
+
+        <a asp-action="Home" asp-controller="Home">Home</a>
+        <br />
+
+        <a asp-action="Servicios" asp-controller="Servicios">Servicios</a>
+        <br />
+
+        <a asp-action="Nosotros" asp-controller="Nosotros">Nosotros</a>
+        <br />
+
+        <a asp-action="Contactenos" asp-controller="Contactenos">Contactenos</a>
+        <br />
+
+        <br>
+        Tambien estamos en
+        <a href="https://www.facebook.com/GrupoCristalRealty/">facebook</a>
+        <br>Mandanos un email a
+        <a href="mailto:y.gfeliz@hotmail.com">y.gfeliz@hotmail.com</a>
+
+    </table>
+</div>
